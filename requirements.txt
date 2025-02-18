@@ -1,5 +1,7 @@
 autogen
 streamlit
-scholary
+scholarly
 python-dotenv
 google-generativeai
+requests
+autogen-agentchat
