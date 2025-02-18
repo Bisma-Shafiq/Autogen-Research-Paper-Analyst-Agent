@@ -13,4 +13,6 @@ groq_api_key = os.getenv('GROQ_API_KEY')
 
 agents = ResearchAgent(groq_api_key)
 
-data-loader = DataLoader()
+data_loader = DataLoader()
+
+query = st.text_input("Enter a research topic.")
